@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_maxBalance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contract.sol": "ImmutableExample"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contract.sol": {
+			"keccak256": "0x5076647e6f526edac8b83e5822088ffcae5961315fe5cb09565cb09e58abda70",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://747428ec7f5f4deb8a6f3f9937fc8f266bda58a9e149cb876d52a5586ba3f1e8",
+				"dweb:/ipfs/QmeeBzawmrxv4wtZuCya2rUmzcnEdLPix2y7gakYYjKDLE"
+			]
+		}
+	},
+	"version": 1
+}

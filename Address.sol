@@ -44,3 +44,10 @@ contract Demo {
         type(SimpleWallet).creationCode;
     }
 }
+
+contract Test {
+    SimpleWallet sw;
+    constructor(address payable _addr) {
+        sw = SimpleWallet(_addr);
+    }
+}

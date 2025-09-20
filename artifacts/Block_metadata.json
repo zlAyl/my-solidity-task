@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Block.sol": "Block"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Block.sol": {
+			"keccak256": "0xb45ce22c3a5029dbbdb911976a28e5952b0fe3644127c5530b94f75d4ac3e390",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9237df1b38e2bc589bd054631c1a61b3f53755f71d78f51762b2a1954a7d7132",
+				"dweb:/ipfs/QmWmANJzQeuLS2eQcui81D5YKfHMBSpkEaoaQAJBAyAgLn"
+			]
+		}
+	},
+	"version": 1
+}
